@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sohbet</string>
+    <string name="hesap_olu_tur">Hesap Oluştur</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

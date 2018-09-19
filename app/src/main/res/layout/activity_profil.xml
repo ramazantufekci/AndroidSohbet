@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="yazilim.dr.sohbet.ProfilActivity">
+
+    <ImageView
+        android:id="@+id/profil_avatar"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/default_avatar" />
+
+    <TextView
+        android:id="@+id/profil_isim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profil_avatar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="İsim"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/profil_durum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profil_isim"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Durum"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/profil_arkadas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/profil_istek_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="Tüm Sevilenler"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/profil_istek_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="75dp"
+        android:background="@color/colorAccent"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Sev"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/profil_sevme_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:background="@color/colorAccent"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Sevmeyi Bırak"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
